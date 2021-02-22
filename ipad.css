@@ -1,0 +1,64 @@
+.wrapper{
+    max-width: 720px;
+    padding: 20px 0;
+}
+
+.main{
+    height: 50vh;
+}
+
+.content{
+    float: none;
+    width: 100%;
+}
+
+.line {
+    width: 30px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+  }
+
+  .hamburger-wrapper {
+    position: relative;
+  }
+
+  .hamburger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+    z-index: 2;
+    margin-top: 5px;
+  }
+
+  .nav-links {
+    position: fixed;
+    background: #6ebf92;
+    height: 44%;
+    width: 32%;
+    flex-direction: column;
+    clip-path: circle(100px at 100% -40%);
+    transition: all 1s ease-out;
+    pointer-events: none;
+    right: 0;
+    top: 6%;
+    z-index: 100;
+  }
+
+  .nav-links li{
+    display: block;
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .nav-links a{
+    font-size: 1rem;
+  }
+
+  .nav-links.open {
+    clip-path: circle(1000px at 90% -10%);
+    -webkit-clip-path: circle(1000px at 90% -10%);
+    pointer-events: all;
+  }

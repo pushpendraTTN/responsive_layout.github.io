@@ -1,0 +1,49 @@
+.wrapper{
+    max-width: 350px;
+    padding: 20px 0;
+}
+
+.main{
+    height: 80vh;
+}
+
+
+.travel{
+    float: none;
+    width: 100%;
+    border-right:none;
+    /* text-align: center; */
+    padding: 10px 20px;
+}
+
+.btn{
+    margin-top: 30px;
+}
+
+h1{
+    /* margin-top: 20px; */
+    padding: 20px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.gallery{
+    float: none;
+    padding:10px 20px;
+    width: 100%;
+    /* text-align: center; */
+}
+
+.options h3{
+    margin-bottom: 5px;
+}
+
+.content{
+    float: none;
+    width: 100%;
+}
+
+.nav-links {
+    width: 30%;
+    height: 74%;
+}
